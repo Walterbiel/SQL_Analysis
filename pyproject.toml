@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "sql analises"
+version = "0.1.0"
+description = ""
+authors = ["waltergonzaga <walterbiel1237@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+sqlalchemy = "^2.0.32"
+seaborn = "^0.13.2"
+matplotlib = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
