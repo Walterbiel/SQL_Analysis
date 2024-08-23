@@ -11,7 +11,11 @@ pandas = "^2.2.2"
 sqlalchemy = "^2.0.32"
 seaborn = "^0.13.2"
 matplotlib = "^3.9.2"
+pyodbc = "^5.1.0"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
 
 [build-system]
 requires = ["poetry-core"]
